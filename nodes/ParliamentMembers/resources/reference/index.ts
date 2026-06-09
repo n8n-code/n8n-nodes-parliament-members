@@ -15,8 +15,8 @@ export const referenceDescription: INodeProperties[] = [
 			},
 			"options": [
 				{
-					"name": "GET Api Reference Answering Bodies",
-					"value": "GET Api Reference Answering Bodies",
+					"name": "GET API Reference Answering Bodies",
+					"value": "GET API Reference Answering Bodies",
 					"action": "Returns a list of answering bodies.",
 					"description": "Returns a list of answering bodies.",
 					"routing": {
@@ -27,8 +27,8 @@ export const referenceDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "GET Api Reference Departments",
-					"value": "GET Api Reference Departments",
+					"name": "GET API Reference Departments",
+					"value": "GET API Reference Departments",
 					"action": "Returns a list of departments.",
 					"description": "Returns a list of departments.",
 					"routing": {
@@ -39,8 +39,8 @@ export const referenceDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "GET Api Reference Departments Logo",
-					"value": "GET Api Reference Departments Logo",
+					"name": "GET API Reference Departments Logo",
+					"value": "GET API Reference Departments Logo",
 					"action": "Returns department logo.",
 					"description": "Returns department logo.",
 					"routing": {
@@ -51,8 +51,8 @@ export const referenceDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "GET Api Reference Policy Interests",
-					"value": "GET Api Reference Policy Interests",
+					"name": "GET API Reference Policy Interests",
+					"value": "GET API Reference Policy Interests",
 					"action": "Returns a list of policy interest.",
 					"description": "Returns a list of policy interest.",
 					"routing": {
@@ -79,13 +79,13 @@ export const referenceDescription: INodeProperties[] = [
 						"Reference"
 					],
 					"operation": [
-						"GET Api Reference Answering Bodies"
+						"GET API Reference Answering Bodies"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"default": 0,
 			"type": "number",
@@ -103,7 +103,7 @@ export const referenceDescription: INodeProperties[] = [
 						"Reference"
 					],
 					"operation": [
-						"GET Api Reference Answering Bodies"
+						"GET API Reference Answering Bodies"
 					]
 				}
 			}
@@ -127,7 +127,7 @@ export const referenceDescription: INodeProperties[] = [
 						"Reference"
 					],
 					"operation": [
-						"GET Api Reference Answering Bodies"
+						"GET API Reference Answering Bodies"
 					]
 				}
 			}
@@ -146,13 +146,13 @@ export const referenceDescription: INodeProperties[] = [
 						"Reference"
 					],
 					"operation": [
-						"GET Api Reference Departments"
+						"GET API Reference Departments"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"default": 0,
 			"type": "number",
@@ -170,7 +170,7 @@ export const referenceDescription: INodeProperties[] = [
 						"Reference"
 					],
 					"operation": [
-						"GET Api Reference Departments"
+						"GET API Reference Departments"
 					]
 				}
 			}
@@ -194,7 +194,7 @@ export const referenceDescription: INodeProperties[] = [
 						"Reference"
 					],
 					"operation": [
-						"GET Api Reference Departments"
+						"GET API Reference Departments"
 					]
 				}
 			}
@@ -213,13 +213,13 @@ export const referenceDescription: INodeProperties[] = [
 						"Reference"
 					],
 					"operation": [
-						"GET Api Reference Departments Logo"
+						"GET API Reference Departments Logo"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "Logo by department ID",
@@ -231,7 +231,7 @@ export const referenceDescription: INodeProperties[] = [
 						"Reference"
 					],
 					"operation": [
-						"GET Api Reference Departments Logo"
+						"GET API Reference Departments Logo"
 					]
 				}
 			}
@@ -250,7 +250,7 @@ export const referenceDescription: INodeProperties[] = [
 						"Reference"
 					],
 					"operation": [
-						"GET Api Reference Policy Interests"
+						"GET API Reference Policy Interests"
 					]
 				}
 			}

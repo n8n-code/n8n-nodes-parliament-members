@@ -15,8 +15,8 @@ export const postsDescription: INodeProperties[] = [
 			},
 			"options": [
 				{
-					"name": "GET Api Posts Departments",
-					"value": "GET Api Posts Departments",
+					"name": "GET API Posts Departments",
+					"value": "GET API Posts Departments",
 					"action": "Returns a list of departments.",
 					"description": "Returns a list of departments.",
 					"routing": {
@@ -27,8 +27,8 @@ export const postsDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "GET Api Posts Government Posts",
-					"value": "GET Api Posts Government Posts",
+					"name": "GET API Posts Government Posts",
+					"value": "GET API Posts Government Posts",
 					"action": "Returns a list of government posts.",
 					"description": "Returns a list of government posts.",
 					"routing": {
@@ -39,8 +39,8 @@ export const postsDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "GET Api Posts Opposition Posts",
-					"value": "GET Api Posts Opposition Posts",
+					"name": "GET API Posts Opposition Posts",
+					"value": "GET API Posts Opposition Posts",
 					"action": "Returns a list of opposition posts.",
 					"description": "Returns a list of opposition posts.",
 					"routing": {
@@ -51,8 +51,8 @@ export const postsDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "GET Api Posts Speaker And Deputies",
-					"value": "GET Api Posts Speaker And Deputies",
+					"name": "GET API Posts Speaker And Deputies",
+					"value": "GET API Posts Speaker And Deputies",
 					"action": "Returns a list containing the speaker and deputy speakers.",
 					"description": "Returns a list containing the speaker and deputy speakers.",
 					"routing": {
@@ -63,8 +63,8 @@ export const postsDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "GET Api Posts Spokespersons",
-					"value": "GET Api Posts Spokespersons",
+					"name": "GET API Posts Spokespersons",
+					"value": "GET API Posts Spokespersons",
 					"action": "Returns a list of spokespersons.",
 					"description": "Returns a list of spokespersons.",
 					"routing": {
@@ -91,7 +91,7 @@ export const postsDescription: INodeProperties[] = [
 						"Posts"
 					],
 					"operation": [
-						"GET Api Posts Departments"
+						"GET API Posts Departments"
 					]
 				}
 			}
@@ -123,7 +123,7 @@ export const postsDescription: INodeProperties[] = [
 						"Posts"
 					],
 					"operation": [
-						"GET Api Posts Departments"
+						"GET API Posts Departments"
 					]
 				}
 			}
@@ -142,13 +142,13 @@ export const postsDescription: INodeProperties[] = [
 						"Posts"
 					],
 					"operation": [
-						"GET Api Posts Government Posts"
+						"GET API Posts Government Posts"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Department Id",
+			"displayName": "Department ID",
 			"name": "departmentId",
 			"description": "Government posts by department ID",
 			"default": 0,
@@ -167,7 +167,7 @@ export const postsDescription: INodeProperties[] = [
 						"Posts"
 					],
 					"operation": [
-						"GET Api Posts Government Posts"
+						"GET API Posts Government Posts"
 					]
 				}
 			}
@@ -186,13 +186,13 @@ export const postsDescription: INodeProperties[] = [
 						"Posts"
 					],
 					"operation": [
-						"GET Api Posts Opposition Posts"
+						"GET API Posts Opposition Posts"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Department Id",
+			"displayName": "Department ID",
 			"name": "departmentId",
 			"description": "Opposition posts by department ID",
 			"default": 0,
@@ -211,7 +211,7 @@ export const postsDescription: INodeProperties[] = [
 						"Posts"
 					],
 					"operation": [
-						"GET Api Posts Opposition Posts"
+						"GET API Posts Opposition Posts"
 					]
 				}
 			}
@@ -230,7 +230,7 @@ export const postsDescription: INodeProperties[] = [
 						"Posts"
 					],
 					"operation": [
-						"GET Api Posts Speaker And Deputies"
+						"GET API Posts Speaker And Deputies"
 					]
 				}
 			}
@@ -248,7 +248,7 @@ export const postsDescription: INodeProperties[] = [
 						"Posts"
 					],
 					"operation": [
-						"GET Api Posts Speaker And Deputies"
+						"GET API Posts Speaker And Deputies"
 					]
 				}
 			}
@@ -267,13 +267,13 @@ export const postsDescription: INodeProperties[] = [
 						"Posts"
 					],
 					"operation": [
-						"GET Api Posts Spokespersons"
+						"GET API Posts Spokespersons"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Party Id",
+			"displayName": "Party ID",
 			"name": "partyId",
 			"description": "Spokespersons by party ID",
 			"default": 0,
@@ -292,7 +292,7 @@ export const postsDescription: INodeProperties[] = [
 						"Posts"
 					],
 					"operation": [
-						"GET Api Posts Spokespersons"
+						"GET API Posts Spokespersons"
 					]
 				}
 			}

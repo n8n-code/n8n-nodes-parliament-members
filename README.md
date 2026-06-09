@@ -53,14 +53,84 @@ That's it. No configuration files. No code. It just works.
 
 ## Resources
 
-| Resource | Operations |
-|----------|------------|
-| Location | Get returns a list of locations both parent and child, Get returns a list of constituencies, Get returns a constituency by id, Get returns latest election result by constituency id, Get returns an election result by constituency and election id, Get returns a list of election results by constituency id, Get returns geometry by constituency id, Get returns a list of representations by constituency id, Get returns a synopsis by constituency id |
-| Lords Interests | Get returns a list of registered interests, Get returns a list of staff |
-| Members | Get return members by id with list of their historical names parties and memberships, Get returns a list of current members of the commons or lords, Get returns a list of members of the commons or lords, Get return member by id, Get return biography of member by id, Get return list of contact details of member by id, Get return contribution summary of member by id, Get return list of early day motions of member by id, Get return experience of member by id, Get return list of areas of focus of member by id, Get return latest election result of member by id, Get return portrait of member by id, Get return portrait url of member by id, Get return list of registered interests of member by id, Get return list of staff of member by id, Get return synopsis of member by id, Get return thumbnail of member by id, Get return thumbnail url of member by id, Get return list of votes by member by id, Get return list of written questions by member by id |
-| Parties | Get returns a list of current parties with at least one active member, Get returns the composition of the house of lords by peerage type, Get returns current state of parties |
-| Posts | Get returns a list of departments, Get returns a list of government posts, Get returns a list of opposition posts, Get returns a list containing the speaker and deputy speakers, Get returns a list of spokespersons |
-| Reference | Get returns a list of answering bodies, Get returns a list of departments, Get returns department logo, Get returns a list of policy interest |
+<details>
+<summary><b>Location</b> (9 operations)</summary>
+
+- Get Returns a list of locations both parent and child
+- Get Returns a list of constituencies
+- Get Returns a constituency by ID
+- Get Returns latest election result by constituency ID
+- Get Returns an election result by constituency and election ID
+- Get Returns a list of election results by constituency ID
+- Get Returns geometry by constituency ID
+- Get Returns a list of representations by constituency ID
+- Get Returns a synopsis by constituency ID
+
+</details>
+
+<details>
+<summary><b>Lords Interests</b> (2 operations)</summary>
+
+- Get Returns a list of registered interests
+- Get Returns a list of staff
+
+</details>
+
+<details>
+<summary><b>Members</b> (20 operations)</summary>
+
+- Get Return members by ID with list of their historical names parties and memberships
+- Get Returns a list of current members of the Commons or Lords
+- Get Returns a list of members of the Commons or Lords
+- Get Return member by ID
+- Get Return biography of member by ID
+- Get Return list of contact details of member by ID
+- Get Return contribution summary of member by ID
+- Get Return list of early day motions of member by ID
+- Get Return experience of member by ID
+- Get Return list of areas of focus of member by ID
+- Get Return latest election result of member by ID
+- Get Return portrait of member by ID
+- Get Return portrait URL of member by ID
+- Get Return list of registered interests of member by ID
+- Get Return list of staff of member by ID
+- Get Return synopsis of member by ID
+- Get Return thumbnail of member by ID
+- Get Return thumbnail URL of member by ID
+- Get Return list of votes by member by ID
+- Get Return list of written questions by member by ID
+
+</details>
+
+<details>
+<summary><b>Parties</b> (3 operations)</summary>
+
+- Get Returns a list of current parties with at least one active member
+- Get Returns the composition of the House of Lords by peerage type
+- Get Returns current state of parties
+
+</details>
+
+<details>
+<summary><b>Posts</b> (5 operations)</summary>
+
+- Get Returns a list of departments
+- Get Returns a list of government posts
+- Get Returns a list of opposition posts
+- Get Returns a list containing the speaker and deputy speakers
+- Get Returns a list of spokespersons
+
+</details>
+
+<details>
+<summary><b>Reference</b> (4 operations)</summary>
+
+- Get Returns a list of answering bodies
+- Get Returns a list of departments
+- Get Returns department logo
+- Get Returns a list of policy interest
+
+</details>
 
 ---
 

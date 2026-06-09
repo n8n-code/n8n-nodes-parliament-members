@@ -15,8 +15,8 @@ export const lordsInterestsDescription: INodeProperties[] = [
 			},
 			"options": [
 				{
-					"name": "GET Api Lords Interests Register",
-					"value": "GET Api Lords Interests Register",
+					"name": "GET API Lords Interests Register",
+					"value": "GET API Lords Interests Register",
 					"action": "Returns a list of registered interests",
 					"description": "Returns a list of registered interests",
 					"routing": {
@@ -27,8 +27,8 @@ export const lordsInterestsDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "GET Api Lords Interests Staff",
-					"value": "GET Api Lords Interests Staff",
+					"name": "GET API Lords Interests Staff",
+					"value": "GET API Lords Interests Staff",
 					"action": "Returns a list of staff",
 					"description": "Returns a list of staff",
 					"routing": {
@@ -55,7 +55,7 @@ export const lordsInterestsDescription: INodeProperties[] = [
 						"Lords Interests"
 					],
 					"operation": [
-						"GET Api Lords Interests Register"
+						"GET API Lords Interests Register"
 					]
 				}
 			}
@@ -80,7 +80,7 @@ export const lordsInterestsDescription: INodeProperties[] = [
 						"Lords Interests"
 					],
 					"operation": [
-						"GET Api Lords Interests Register"
+						"GET API Lords Interests Register"
 					]
 				}
 			}
@@ -105,7 +105,7 @@ export const lordsInterestsDescription: INodeProperties[] = [
 						"Lords Interests"
 					],
 					"operation": [
-						"GET Api Lords Interests Register"
+						"GET API Lords Interests Register"
 					]
 				}
 			}
@@ -130,7 +130,7 @@ export const lordsInterestsDescription: INodeProperties[] = [
 						"Lords Interests"
 					],
 					"operation": [
-						"GET Api Lords Interests Register"
+						"GET API Lords Interests Register"
 					]
 				}
 			}
@@ -149,7 +149,7 @@ export const lordsInterestsDescription: INodeProperties[] = [
 						"Lords Interests"
 					],
 					"operation": [
-						"GET Api Lords Interests Staff"
+						"GET API Lords Interests Staff"
 					]
 				}
 			}
@@ -174,7 +174,7 @@ export const lordsInterestsDescription: INodeProperties[] = [
 						"Lords Interests"
 					],
 					"operation": [
-						"GET Api Lords Interests Staff"
+						"GET API Lords Interests Staff"
 					]
 				}
 			}
@@ -199,7 +199,7 @@ export const lordsInterestsDescription: INodeProperties[] = [
 						"Lords Interests"
 					],
 					"operation": [
-						"GET Api Lords Interests Staff"
+						"GET API Lords Interests Staff"
 					]
 				}
 			}

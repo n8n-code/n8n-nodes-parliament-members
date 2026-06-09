@@ -15,8 +15,8 @@ export const locationDescription: INodeProperties[] = [
 			},
 			"options": [
 				{
-					"name": "GET Api Location Browse",
-					"value": "GET Api Location Browse",
+					"name": "GET API Location Browse",
+					"value": "GET API Location Browse",
 					"action": "Returns a list of locations, both parent and child",
 					"description": "Returns a list of locations, both parent and child",
 					"routing": {
@@ -27,8 +27,8 @@ export const locationDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "GET Api Location Constituency Search",
-					"value": "GET Api Location Constituency Search",
+					"name": "GET API Location Constituency Search",
+					"value": "GET API Location Constituency Search",
 					"action": "Returns a list of constituencies",
 					"description": "Returns a list of constituencies",
 					"routing": {
@@ -39,8 +39,8 @@ export const locationDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "GET Api Location Constituency",
-					"value": "GET Api Location Constituency",
+					"name": "GET API Location Constituency",
+					"value": "GET API Location Constituency",
 					"action": "Returns a constituency by ID",
 					"description": "Returns a constituency by ID",
 					"routing": {
@@ -51,8 +51,8 @@ export const locationDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "GET Api Location Constituency Election Result Latest",
-					"value": "GET Api Location Constituency Election Result Latest",
+					"name": "GET API Location Constituency Election Result Latest",
+					"value": "GET API Location Constituency Election Result Latest",
 					"action": "Returns latest election result by constituency id",
 					"description": "Returns latest election result by constituency id",
 					"routing": {
@@ -63,8 +63,8 @@ export const locationDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "GET Api Location Constituency Election Result",
-					"value": "GET Api Location Constituency Election Result",
+					"name": "GET API Location Constituency Election Result",
+					"value": "GET API Location Constituency Election Result",
 					"action": "Returns an election result by constituency and election id",
 					"description": "Returns an election result by constituency and election id",
 					"routing": {
@@ -75,8 +75,8 @@ export const locationDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "GET Api Location Constituency Election Results",
-					"value": "GET Api Location Constituency Election Results",
+					"name": "GET API Location Constituency Election Results",
+					"value": "GET API Location Constituency Election Results",
 					"action": "Returns a list of election results by constituency ID",
 					"description": "Returns a list of election results by constituency ID",
 					"routing": {
@@ -87,8 +87,8 @@ export const locationDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "GET Api Location Constituency Geometry",
-					"value": "GET Api Location Constituency Geometry",
+					"name": "GET API Location Constituency Geometry",
+					"value": "GET API Location Constituency Geometry",
 					"action": "Returns geometry by constituency ID",
 					"description": "Returns geometry by constituency ID",
 					"routing": {
@@ -99,8 +99,8 @@ export const locationDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "GET Api Location Constituency Representations",
-					"value": "GET Api Location Constituency Representations",
+					"name": "GET API Location Constituency Representations",
+					"value": "GET API Location Constituency Representations",
 					"action": "Returns a list of representations by constituency ID",
 					"description": "Returns a list of representations by constituency ID",
 					"routing": {
@@ -111,8 +111,8 @@ export const locationDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "GET Api Location Constituency Synopsis",
-					"value": "GET Api Location Constituency Synopsis",
+					"name": "GET API Location Constituency Synopsis",
+					"value": "GET API Location Constituency Synopsis",
 					"action": "Returns a synopsis by constituency ID",
 					"description": "Returns a synopsis by constituency ID",
 					"routing": {
@@ -139,7 +139,7 @@ export const locationDescription: INodeProperties[] = [
 						"Location"
 					],
 					"operation": [
-						"GET Api Location Browse"
+						"GET API Location Browse"
 					]
 				}
 			}
@@ -175,7 +175,7 @@ export const locationDescription: INodeProperties[] = [
 						"Location"
 					],
 					"operation": [
-						"GET Api Location Browse"
+						"GET API Location Browse"
 					]
 				}
 			}
@@ -193,7 +193,7 @@ export const locationDescription: INodeProperties[] = [
 						"Location"
 					],
 					"operation": [
-						"GET Api Location Browse"
+						"GET API Location Browse"
 					]
 				}
 			}
@@ -212,7 +212,7 @@ export const locationDescription: INodeProperties[] = [
 						"Location"
 					],
 					"operation": [
-						"GET Api Location Constituency Search"
+						"GET API Location Constituency Search"
 					]
 				}
 			}
@@ -237,7 +237,7 @@ export const locationDescription: INodeProperties[] = [
 						"Location"
 					],
 					"operation": [
-						"GET Api Location Constituency Search"
+						"GET API Location Constituency Search"
 					]
 				}
 			}
@@ -262,7 +262,7 @@ export const locationDescription: INodeProperties[] = [
 						"Location"
 					],
 					"operation": [
-						"GET Api Location Constituency Search"
+						"GET API Location Constituency Search"
 					]
 				}
 			}
@@ -287,7 +287,7 @@ export const locationDescription: INodeProperties[] = [
 						"Location"
 					],
 					"operation": [
-						"GET Api Location Constituency Search"
+						"GET API Location Constituency Search"
 					]
 				}
 			}
@@ -306,13 +306,13 @@ export const locationDescription: INodeProperties[] = [
 						"Location"
 					],
 					"operation": [
-						"GET Api Location Constituency"
+						"GET API Location Constituency"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "Constituency by ID",
@@ -324,7 +324,7 @@ export const locationDescription: INodeProperties[] = [
 						"Location"
 					],
 					"operation": [
-						"GET Api Location Constituency"
+						"GET API Location Constituency"
 					]
 				}
 			}
@@ -343,13 +343,13 @@ export const locationDescription: INodeProperties[] = [
 						"Location"
 					],
 					"operation": [
-						"GET Api Location Constituency Election Result Latest"
+						"GET API Location Constituency Election Result Latest"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "Latest election result by constituency id",
@@ -361,7 +361,7 @@ export const locationDescription: INodeProperties[] = [
 						"Location"
 					],
 					"operation": [
-						"GET Api Location Constituency Election Result Latest"
+						"GET API Location Constituency Election Result Latest"
 					]
 				}
 			}
@@ -380,13 +380,13 @@ export const locationDescription: INodeProperties[] = [
 						"Location"
 					],
 					"operation": [
-						"GET Api Location Constituency Election Result"
+						"GET API Location Constituency Election Result"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "Election result by constituency id",
@@ -398,13 +398,13 @@ export const locationDescription: INodeProperties[] = [
 						"Location"
 					],
 					"operation": [
-						"GET Api Location Constituency Election Result"
+						"GET API Location Constituency Election Result"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Election Id",
+			"displayName": "Election ID",
 			"name": "electionId",
 			"required": true,
 			"description": "Election result by election id",
@@ -416,7 +416,7 @@ export const locationDescription: INodeProperties[] = [
 						"Location"
 					],
 					"operation": [
-						"GET Api Location Constituency Election Result"
+						"GET API Location Constituency Election Result"
 					]
 				}
 			}
@@ -435,13 +435,13 @@ export const locationDescription: INodeProperties[] = [
 						"Location"
 					],
 					"operation": [
-						"GET Api Location Constituency Election Results"
+						"GET API Location Constituency Election Results"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "Elections results by constituency ID",
@@ -453,7 +453,7 @@ export const locationDescription: INodeProperties[] = [
 						"Location"
 					],
 					"operation": [
-						"GET Api Location Constituency Election Results"
+						"GET API Location Constituency Election Results"
 					]
 				}
 			}
@@ -472,13 +472,13 @@ export const locationDescription: INodeProperties[] = [
 						"Location"
 					],
 					"operation": [
-						"GET Api Location Constituency Geometry"
+						"GET API Location Constituency Geometry"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "Geometry by constituency ID",
@@ -490,7 +490,7 @@ export const locationDescription: INodeProperties[] = [
 						"Location"
 					],
 					"operation": [
-						"GET Api Location Constituency Geometry"
+						"GET API Location Constituency Geometry"
 					]
 				}
 			}
@@ -509,13 +509,13 @@ export const locationDescription: INodeProperties[] = [
 						"Location"
 					],
 					"operation": [
-						"GET Api Location Constituency Representations"
+						"GET API Location Constituency Representations"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "Representations by constituency ID",
@@ -527,7 +527,7 @@ export const locationDescription: INodeProperties[] = [
 						"Location"
 					],
 					"operation": [
-						"GET Api Location Constituency Representations"
+						"GET API Location Constituency Representations"
 					]
 				}
 			}
@@ -546,13 +546,13 @@ export const locationDescription: INodeProperties[] = [
 						"Location"
 					],
 					"operation": [
-						"GET Api Location Constituency Synopsis"
+						"GET API Location Constituency Synopsis"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "Synopsis by constituency ID",
@@ -564,7 +564,7 @@ export const locationDescription: INodeProperties[] = [
 						"Location"
 					],
 					"operation": [
-						"GET Api Location Constituency Synopsis"
+						"GET API Location Constituency Synopsis"
 					]
 				}
 			}

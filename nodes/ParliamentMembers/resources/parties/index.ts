@@ -15,8 +15,8 @@ export const partiesDescription: INodeProperties[] = [
 			},
 			"options": [
 				{
-					"name": "GET Api Parties Get Active",
-					"value": "GET Api Parties Get Active",
+					"name": "GET API Parties Get Active",
+					"value": "GET API Parties Get Active",
 					"action": "Returns a list of current parties with at least one active member.",
 					"description": "Returns a list of current parties with at least one active member.",
 					"routing": {
@@ -27,8 +27,8 @@ export const partiesDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "GET Api Parties Lords By Type",
-					"value": "GET Api Parties Lords By Type",
+					"name": "GET API Parties Lords By Type",
+					"value": "GET API Parties Lords By Type",
 					"action": "Returns the composition of the House of Lords by peerage type.",
 					"description": "Returns the composition of the House of Lords by peerage type.",
 					"routing": {
@@ -39,8 +39,8 @@ export const partiesDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "GET Api Parties State Of The Parties",
-					"value": "GET Api Parties State Of The Parties",
+					"name": "GET API Parties State Of The Parties",
+					"value": "GET API Parties State Of The Parties",
 					"action": "Returns current state of parties",
 					"description": "Returns current state of parties",
 					"routing": {
@@ -67,7 +67,7 @@ export const partiesDescription: INodeProperties[] = [
 						"Parties"
 					],
 					"operation": [
-						"GET Api Parties Get Active"
+						"GET API Parties Get Active"
 					]
 				}
 			}
@@ -95,7 +95,7 @@ export const partiesDescription: INodeProperties[] = [
 						"Parties"
 					],
 					"operation": [
-						"GET Api Parties Get Active"
+						"GET API Parties Get Active"
 					]
 				}
 			}
@@ -114,7 +114,7 @@ export const partiesDescription: INodeProperties[] = [
 						"Parties"
 					],
 					"operation": [
-						"GET Api Parties Lords By Type"
+						"GET API Parties Lords By Type"
 					]
 				}
 			}
@@ -132,7 +132,7 @@ export const partiesDescription: INodeProperties[] = [
 						"Parties"
 					],
 					"operation": [
-						"GET Api Parties Lords By Type"
+						"GET API Parties Lords By Type"
 					]
 				}
 			}
@@ -151,7 +151,7 @@ export const partiesDescription: INodeProperties[] = [
 						"Parties"
 					],
 					"operation": [
-						"GET Api Parties State Of The Parties"
+						"GET API Parties State Of The Parties"
 					]
 				}
 			}
@@ -179,7 +179,7 @@ export const partiesDescription: INodeProperties[] = [
 						"Parties"
 					],
 					"operation": [
-						"GET Api Parties State Of The Parties"
+						"GET API Parties State Of The Parties"
 					]
 				}
 			}
@@ -197,7 +197,7 @@ export const partiesDescription: INodeProperties[] = [
 						"Parties"
 					],
 					"operation": [
-						"GET Api Parties State Of The Parties"
+						"GET API Parties State Of The Parties"
 					]
 				}
 			}

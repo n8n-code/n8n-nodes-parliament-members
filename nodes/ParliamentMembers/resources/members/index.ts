@@ -15,8 +15,8 @@ export const membersDescription: INodeProperties[] = [
 			},
 			"options": [
 				{
-					"name": "GET Api Members History",
-					"value": "GET Api Members History",
+					"name": "GET API Members History",
+					"value": "GET API Members History",
 					"action": "Return members by ID with list of their historical names, parties and memberships",
 					"description": "Return members by ID with list of their historical names, parties and memberships",
 					"routing": {
@@ -27,8 +27,8 @@ export const membersDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "GET Api Members Search",
-					"value": "GET Api Members Search",
+					"name": "GET API Members Search",
+					"value": "GET API Members Search",
 					"action": "Returns a list of current members of the Commons or Lords",
 					"description": "Returns a list of current members of the Commons or Lords",
 					"routing": {
@@ -39,8 +39,8 @@ export const membersDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "GET Api Members Search Historical",
-					"value": "GET Api Members Search Historical",
+					"name": "GET API Members Search Historical",
+					"value": "GET API Members Search Historical",
 					"action": "Returns a list of members of the Commons or Lords",
 					"description": "Returns a list of members of the Commons or Lords",
 					"routing": {
@@ -51,8 +51,8 @@ export const membersDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "GET Api Members",
-					"value": "GET Api Members",
+					"name": "GET API Members",
+					"value": "GET API Members",
 					"action": "Return member by ID",
 					"description": "Return member by ID",
 					"routing": {
@@ -63,8 +63,8 @@ export const membersDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "GET Api Members Biography",
-					"value": "GET Api Members Biography",
+					"name": "GET API Members Biography",
+					"value": "GET API Members Biography",
 					"action": "Return biography of member by ID",
 					"description": "Return biography of member by ID",
 					"routing": {
@@ -75,8 +75,8 @@ export const membersDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "GET Api Members Contact",
-					"value": "GET Api Members Contact",
+					"name": "GET API Members Contact",
+					"value": "GET API Members Contact",
 					"action": "Return list of contact details of member by ID",
 					"description": "Return list of contact details of member by ID",
 					"routing": {
@@ -87,8 +87,8 @@ export const membersDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "GET Api Members Contribution Summary",
-					"value": "GET Api Members Contribution Summary",
+					"name": "GET API Members Contribution Summary",
+					"value": "GET API Members Contribution Summary",
 					"action": "Return contribution summary of member by ID",
 					"description": "Return contribution summary of member by ID",
 					"routing": {
@@ -99,8 +99,8 @@ export const membersDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "GET Api Members Edms",
-					"value": "GET Api Members Edms",
+					"name": "GET API Members Edms",
+					"value": "GET API Members Edms",
 					"action": "Return list of early day motions of member by ID",
 					"description": "Return list of early day motions of member by ID",
 					"routing": {
@@ -111,8 +111,8 @@ export const membersDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "GET Api Members Experience",
-					"value": "GET Api Members Experience",
+					"name": "GET API Members Experience",
+					"value": "GET API Members Experience",
 					"action": "Return experience of member by ID",
 					"description": "Return experience of member by ID",
 					"routing": {
@@ -123,8 +123,8 @@ export const membersDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "GET Api Members Focus",
-					"value": "GET Api Members Focus",
+					"name": "GET API Members Focus",
+					"value": "GET API Members Focus",
 					"action": "Return list of areas of focus of member by ID",
 					"description": "Return list of areas of focus of member by ID",
 					"routing": {
@@ -135,8 +135,8 @@ export const membersDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "GET Api Members Latest Election Result",
-					"value": "GET Api Members Latest Election Result",
+					"name": "GET API Members Latest Election Result",
+					"value": "GET API Members Latest Election Result",
 					"action": "Return latest election result of member by ID",
 					"description": "Return latest election result of member by ID",
 					"routing": {
@@ -147,8 +147,8 @@ export const membersDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "GET Api Members Portrait",
-					"value": "GET Api Members Portrait",
+					"name": "GET API Members Portrait",
+					"value": "GET API Members Portrait",
 					"action": "Return portrait of member by ID",
 					"description": "Return portrait of member by ID",
 					"routing": {
@@ -159,8 +159,8 @@ export const membersDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "GET Api Members Portrait Url",
-					"value": "GET Api Members Portrait Url",
+					"name": "GET API Members Portrait URL",
+					"value": "GET API Members Portrait URL",
 					"action": "Return portrait url of member by ID",
 					"description": "Return portrait url of member by ID",
 					"routing": {
@@ -171,8 +171,8 @@ export const membersDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "GET Api Members Registered Interests",
-					"value": "GET Api Members Registered Interests",
+					"name": "GET API Members Registered Interests",
+					"value": "GET API Members Registered Interests",
 					"action": "Return list of registered interests of member by ID",
 					"description": "Return list of registered interests of member by ID",
 					"routing": {
@@ -183,8 +183,8 @@ export const membersDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "GET Api Members Staff",
-					"value": "GET Api Members Staff",
+					"name": "GET API Members Staff",
+					"value": "GET API Members Staff",
 					"action": "Return list of staff of member by ID",
 					"description": "Return list of staff of member by ID",
 					"routing": {
@@ -195,8 +195,8 @@ export const membersDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "GET Api Members Synopsis",
-					"value": "GET Api Members Synopsis",
+					"name": "GET API Members Synopsis",
+					"value": "GET API Members Synopsis",
 					"action": "Return synopsis of member by ID",
 					"description": "Return synopsis of member by ID",
 					"routing": {
@@ -207,8 +207,8 @@ export const membersDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "GET Api Members Thumbnail",
-					"value": "GET Api Members Thumbnail",
+					"name": "GET API Members Thumbnail",
+					"value": "GET API Members Thumbnail",
 					"action": "Return thumbnail of member by ID",
 					"description": "Return thumbnail of member by ID",
 					"routing": {
@@ -219,8 +219,8 @@ export const membersDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "GET Api Members Thumbnail Url",
-					"value": "GET Api Members Thumbnail Url",
+					"name": "GET API Members Thumbnail URL",
+					"value": "GET API Members Thumbnail URL",
 					"action": "Return thumbnail url of member by ID",
 					"description": "Return thumbnail url of member by ID",
 					"routing": {
@@ -231,8 +231,8 @@ export const membersDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "GET Api Members Voting",
-					"value": "GET Api Members Voting",
+					"name": "GET API Members Voting",
+					"value": "GET API Members Voting",
 					"action": "Return list of votes by member by ID",
 					"description": "Return list of votes by member by ID",
 					"routing": {
@@ -243,8 +243,8 @@ export const membersDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "GET Api Members Written Questions",
-					"value": "GET Api Members Written Questions",
+					"name": "GET API Members Written Questions",
+					"value": "GET API Members Written Questions",
 					"action": "Return list of written questions by member by ID",
 					"description": "Return list of written questions by member by ID",
 					"routing": {
@@ -271,7 +271,7 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members History"
+						"GET API Members History"
 					]
 				}
 			}
@@ -296,7 +296,7 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members History"
+						"GET API Members History"
 					]
 				}
 			}
@@ -315,7 +315,7 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members Search"
+						"GET API Members Search"
 					]
 				}
 			}
@@ -340,7 +340,7 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members Search"
+						"GET API Members Search"
 					]
 				}
 			}
@@ -365,7 +365,7 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members Search"
+						"GET API Members Search"
 					]
 				}
 			}
@@ -390,13 +390,13 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members Search"
+						"GET API Members Search"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Party Id",
+			"displayName": "Party ID",
 			"name": "PartyId",
 			"description": "Members which are currently affiliated with party with party ID",
 			"default": 0,
@@ -415,7 +415,7 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members Search"
+						"GET API Members Search"
 					]
 				}
 			}
@@ -450,13 +450,13 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members Search"
+						"GET API Members Search"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Constituency Id",
+			"displayName": "Constituency ID",
 			"name": "ConstituencyId",
 			"description": "Members which currently hold the constituency with constituency id",
 			"default": 0,
@@ -475,7 +475,7 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members Search"
+						"GET API Members Search"
 					]
 				}
 			}
@@ -500,7 +500,7 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members Search"
+						"GET API Members Search"
 					]
 				}
 			}
@@ -525,7 +525,7 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members Search"
+						"GET API Members Search"
 					]
 				}
 			}
@@ -550,7 +550,7 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members Search"
+						"GET API Members Search"
 					]
 				}
 			}
@@ -575,7 +575,7 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members Search"
+						"GET API Members Search"
 					]
 				}
 			}
@@ -599,7 +599,7 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members Search"
+						"GET API Members Search"
 					]
 				}
 			}
@@ -624,7 +624,7 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members Search"
+						"GET API Members Search"
 					]
 				}
 			}
@@ -649,7 +649,7 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members Search"
+						"GET API Members Search"
 					]
 				}
 			}
@@ -684,7 +684,7 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members Search"
+						"GET API Members Search"
 					]
 				}
 			}
@@ -709,7 +709,7 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members Search"
+						"GET API Members Search"
 					]
 				}
 			}
@@ -734,13 +734,13 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members Search"
+						"GET API Members Search"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Policy Interest Id",
+			"displayName": "Policy Interest ID",
 			"name": "PolicyInterestId",
 			"description": "Members with specified policy interest",
 			"default": 0,
@@ -759,7 +759,7 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members Search"
+						"GET API Members Search"
 					]
 				}
 			}
@@ -784,7 +784,7 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members Search"
+						"GET API Members Search"
 					]
 				}
 			}
@@ -809,7 +809,7 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members Search"
+						"GET API Members Search"
 					]
 				}
 			}
@@ -834,7 +834,7 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members Search"
+						"GET API Members Search"
 					]
 				}
 			}
@@ -853,7 +853,7 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members Search Historical"
+						"GET API Members Search Historical"
 					]
 				}
 			}
@@ -878,7 +878,7 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members Search Historical"
+						"GET API Members Search Historical"
 					]
 				}
 			}
@@ -903,7 +903,7 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members Search Historical"
+						"GET API Members Search Historical"
 					]
 				}
 			}
@@ -928,7 +928,7 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members Search Historical"
+						"GET API Members Search Historical"
 					]
 				}
 			}
@@ -953,7 +953,7 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members Search Historical"
+						"GET API Members Search Historical"
 					]
 				}
 			}
@@ -972,13 +972,13 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members"
+						"GET API Members"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "Member by ID specified",
@@ -990,7 +990,7 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members"
+						"GET API Members"
 					]
 				}
 			}
@@ -1015,7 +1015,7 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members"
+						"GET API Members"
 					]
 				}
 			}
@@ -1034,13 +1034,13 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members Biography"
+						"GET API Members Biography"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "Biography of Member by ID specified",
@@ -1052,7 +1052,7 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members Biography"
+						"GET API Members Biography"
 					]
 				}
 			}
@@ -1071,13 +1071,13 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members Contact"
+						"GET API Members Contact"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "Contact details of Member by ID specified",
@@ -1089,7 +1089,7 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members Contact"
+						"GET API Members Contact"
 					]
 				}
 			}
@@ -1108,13 +1108,13 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members Contribution Summary"
+						"GET API Members Contribution Summary"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "Contribution summary of Member by ID specified",
@@ -1126,7 +1126,7 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members Contribution Summary"
+						"GET API Members Contribution Summary"
 					]
 				}
 			}
@@ -1150,7 +1150,7 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members Contribution Summary"
+						"GET API Members Contribution Summary"
 					]
 				}
 			}
@@ -1169,13 +1169,13 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members Edms"
+						"GET API Members Edms"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "Early day motions of Member by ID specified",
@@ -1187,7 +1187,7 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members Edms"
+						"GET API Members Edms"
 					]
 				}
 			}
@@ -1211,7 +1211,7 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members Edms"
+						"GET API Members Edms"
 					]
 				}
 			}
@@ -1230,13 +1230,13 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members Experience"
+						"GET API Members Experience"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "Experience of Member by ID specified",
@@ -1248,7 +1248,7 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members Experience"
+						"GET API Members Experience"
 					]
 				}
 			}
@@ -1267,13 +1267,13 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members Focus"
+						"GET API Members Focus"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "Areas of focus of Member by ID specified",
@@ -1285,7 +1285,7 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members Focus"
+						"GET API Members Focus"
 					]
 				}
 			}
@@ -1304,13 +1304,13 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members Latest Election Result"
+						"GET API Members Latest Election Result"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "Latest election result of Member by ID specified",
@@ -1322,7 +1322,7 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members Latest Election Result"
+						"GET API Members Latest Election Result"
 					]
 				}
 			}
@@ -1341,13 +1341,13 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members Portrait"
+						"GET API Members Portrait"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "Portrait of Member by ID specified",
@@ -1359,7 +1359,7 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members Portrait"
+						"GET API Members Portrait"
 					]
 				}
 			}
@@ -1401,7 +1401,7 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members Portrait"
+						"GET API Members Portrait"
 					]
 				}
 			}
@@ -1425,7 +1425,7 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members Portrait"
+						"GET API Members Portrait"
 					]
 				}
 			}
@@ -1444,13 +1444,13 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members Portrait Url"
+						"GET API Members Portrait URL"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "Portrait url of Member by ID specified",
@@ -1462,7 +1462,7 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members Portrait Url"
+						"GET API Members Portrait URL"
 					]
 				}
 			}
@@ -1481,13 +1481,13 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members Registered Interests"
+						"GET API Members Registered Interests"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "Registered interests of Member by ID specified",
@@ -1499,7 +1499,7 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members Registered Interests"
+						"GET API Members Registered Interests"
 					]
 				}
 			}
@@ -1534,7 +1534,7 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members Registered Interests"
+						"GET API Members Registered Interests"
 					]
 				}
 			}
@@ -1553,13 +1553,13 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members Staff"
+						"GET API Members Staff"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "Staff of Member by ID specified",
@@ -1571,7 +1571,7 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members Staff"
+						"GET API Members Staff"
 					]
 				}
 			}
@@ -1590,13 +1590,13 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members Synopsis"
+						"GET API Members Synopsis"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "Synopsis of Member by ID specified",
@@ -1608,7 +1608,7 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members Synopsis"
+						"GET API Members Synopsis"
 					]
 				}
 			}
@@ -1627,13 +1627,13 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members Thumbnail"
+						"GET API Members Thumbnail"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "Thumbnail of Member by ID specified",
@@ -1645,7 +1645,7 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members Thumbnail"
+						"GET API Members Thumbnail"
 					]
 				}
 			}
@@ -1664,13 +1664,13 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members Thumbnail Url"
+						"GET API Members Thumbnail URL"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "Thumbnail url of Member by ID specified",
@@ -1682,7 +1682,7 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members Thumbnail Url"
+						"GET API Members Thumbnail URL"
 					]
 				}
 			}
@@ -1701,13 +1701,13 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members Voting"
+						"GET API Members Voting"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "Votes by Member by ID specified",
@@ -1719,7 +1719,7 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members Voting"
+						"GET API Members Voting"
 					]
 				}
 			}
@@ -1754,7 +1754,7 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members Voting"
+						"GET API Members Voting"
 					]
 				}
 			}
@@ -1778,7 +1778,7 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members Voting"
+						"GET API Members Voting"
 					]
 				}
 			}
@@ -1797,13 +1797,13 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members Written Questions"
+						"GET API Members Written Questions"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "Written questions by Member by ID specified",
@@ -1815,7 +1815,7 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members Written Questions"
+						"GET API Members Written Questions"
 					]
 				}
 			}
@@ -1839,7 +1839,7 @@ export const membersDescription: INodeProperties[] = [
 						"Members"
 					],
 					"operation": [
-						"GET Api Members Written Questions"
+						"GET API Members Written Questions"
 					]
 				}
 			}

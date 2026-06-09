@@ -8,14 +8,14 @@ import { referenceDescription } from './resources/reference';
 
 export class ParliamentMembers implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'parliament-members',
+		displayName: 'Parliament Members',
 		name: 'N8nDevParliamentMembers',
 		icon: { light: 'file:./parliament-members.svg', dark: 'file:./parliament-members.dark.svg' },
 		group: ['input'],
 		version: 1,
 		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
 		description: 'API which retrieves Members data.',
-		defaults: { name: 'parliament-members' },
+		defaults: { name: 'Parliament Members' },
 		usableAsTool: true,
 		inputs: [NodeConnectionTypes.Main],
 		outputs: [NodeConnectionTypes.Main],
